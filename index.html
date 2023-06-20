@@ -9,19 +9,15 @@
 <body>
     <main>
         <h1 class="title">Cálculo do Vigor</h1>
-        <p>O cálculo seguinte é utilizando a fórmula "T = (5+V)*(N/5)+V+20" onde... </p>
-        <p>T = Total</p>
-        <p>V = Vigor</p>
-        <p>N = Porcentagem Nex. Obs: N/5 arredonda pra baixo.</p>
+        <div class="texto">
+            <p>O cálculo seguinte é utilizando a fórmula "T = (5+V)*(N/5)+V+20" onde... </p>
+            <p>T = Total</p>
+            <p>V = Vigor</p>
+            <p>N = Porcentagem Nex. Obs: N/5 arredonda pra baixo.</p>
+        </div>
         <div class="inputs">
-            <div class="variaveis">
-                <p class="variavel">Vigor:</p>
                 <input type="number" name="" id="V" class="number" placeholder="Vigor">
-            </div>
-            <div class="variaveis">
-                <p class="variavel">Nex: </p>
                 <input type="number" name="" id="N" class="number" placeholder="Nex">
-            </div>
         </div>
         <h2 id="resultado"></h2>
         <input type="button" value="Calcular" onclick="calculo()" id="calculo">
