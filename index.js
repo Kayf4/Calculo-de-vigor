@@ -10,5 +10,5 @@ function calculo() {
 
     console.log('Valor de N é: ' + N);
     console.log('Valor de V é: ' + V);
-    resultado.innerText = `Seu resultado deu ${T}`;
+    resultado.innerText = `Seu vigor total é de ${T}`;
 }
